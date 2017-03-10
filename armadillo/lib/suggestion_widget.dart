@@ -127,6 +127,7 @@ class SuggestionWidget extends StatelessWidget {
                   ),
                   new Container(
                     width: _kSuggestionHeight,
+                    height: _kSuggestionHeight,
                     child: suggestion.imageType == ImageType.person
                         ? new Padding(
                             padding: const EdgeInsets.all(_kPersonImageInset),

@@ -51,7 +51,7 @@ class MaxwellSuggestionListenerImpl extends maxwell.SuggestionListener {
         id: new SuggestionId(suggestion.uuid),
         title: suggestion.display.headline,
         themeColor: new Color(suggestion.display.color),
-        selectionType: SelectionType.closeSuggestions,
+        selectionType: SelectionType.launchStory,
         icons: const <WidgetBuilder>[],
         image: suggestion.display.imageUrl?.isNotEmpty ?? false
             ? (_) => new Image.network(
