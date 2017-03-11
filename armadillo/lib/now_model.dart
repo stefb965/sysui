@@ -79,7 +79,7 @@ class NowModel extends Model {
   Widget userContextMaximized({double opacity: 1.0}) => new Opacity(
         opacity: opacity,
         child: new Text(
-          '${_timeStringer.longString} Mountain View'.toUpperCase(),
+          '${_timeStringer.longString}'.toUpperCase(),
           style: _textStyle,
         ),
       );
@@ -169,7 +169,7 @@ class NowModel extends Model {
                         child: new Opacity(
                           opacity: _quickSettingsSlideUpProgress * opacity,
                           child: new Text(
-                            'GoogleGuest',
+                            'Vermont',
                             softWrap: false,
                             overflow: TextOverflow.fade,
                             textAlign: TextAlign.left,
